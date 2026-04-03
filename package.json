@@ -1,0 +1,13 @@
+{
+  "name": "passionfroid-app",
+  "version": "1.0.0",
+  "description": "Outil de Pilotage Tarifaire PassionFroid",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site ready'",
+    "start": "vercel start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

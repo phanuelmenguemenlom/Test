@@ -1,0 +1,5 @@
+{
+  "buildCommand": "echo 'Build complete'",
+  "outputDirectory": "public",
+  "cleanUrls": true
+}
