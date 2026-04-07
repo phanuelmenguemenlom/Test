@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phanuelVoyage | Mon Compte</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+    <nav class="bg-white shadow-lg p-4 flex flex-wrap justify-between items-center gap-3 px-6 md:px-10">
+        <h1 class="text-2xl font-bold text-blue-600">phanuelVoyage</h1>
+        <div class="flex flex-wrap items-center gap-3 text-sm">
+            <a href="index.html" class="hover:text-blue-600">Accueil</a>
+            <a href="destinations.html" class="hover:text-blue-600">Destinations</a>
+            <a href="offres.html" class="hover:text-blue-600">Offres</a>
+            <a href="compte.html" class="text-blue-600 font-semibold">Mon Compte</a>
+            <a href="login.html" class="hover:text-blue-600">Connexion</a>
+            <a href="register.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg">Inscription</a>
+        </div>
+    </nav>
+
+    <main class="flex items-center justify-center min-h-[calc(100vh-80px)] p-6">
+        <div class="bg-white shadow-xl rounded-3xl p-10 w-full max-w-2xl">
+            <h2 class="text-4xl font-bold mb-6 text-center">Mon Compte</h2>
+            <form class="space-y-5">
+                <div>
+                    <label class="block text-gray-700 mb-2">Adresse e-mail</label>
+                    <input type="email" placeholder="prenom@exemple.com" class="w-full border border-gray-300 rounded-xl p-3 outline-none focus:border-blue-500">
+                </div>
+                <div>
+                    <label class="block text-gray-700 mb-2">Mot de passe</label>
+                    <input type="password" placeholder="••••••••" class="w-full border border-gray-300 rounded-xl p-3 outline-none focus:border-blue-500">
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-xl text-lg">Se connecter</button>
+            </form>
+            <div class="mt-8 text-center text-gray-600">
+                <p>Pas encore de compte ? Créez-le pour sauvegarder vos réservations.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
